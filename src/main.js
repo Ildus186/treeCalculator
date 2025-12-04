@@ -26,7 +26,7 @@ function calculateResult() {
     const formatter = new Intl.NumberFormat('ru-RU');
 
     resultBox.textContent = `Объём: ${formatter.format(result)} м3`;
-    resultSumBox.textContent = `Стоимость: ${formatter.format(resultSum)} Руб.`
+    resultSumBox.textContent = `Стоимость: ${formatter.format(resultSum)} руб.`
 }   
 
 calculateResult();
